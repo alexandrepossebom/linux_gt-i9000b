@@ -65,7 +65,7 @@ UTS_TRUNCATE="cut -b -$UTS_LEN"
 
   echo \#define LINUX_COMPILE_TIME \"`date +%T`\"
   ## LATIN-FEATURE hanson.jung 2010.08.17 id@hostname -> latin.umts@samsung
-  echo \#define LINUX_COMPILE_BY \"latin.umts\"
+  echo \#define LINUX_COMPILE_BY \"possebom\"
   echo \#define LINUX_COMPILE_HOST \"samsung\"
   #echo \#define LINUX_COMPILE_BY \"`whoami`\"
   #echo \#define LINUX_COMPILE_HOST \"`hostname | $UTS_TRUNCATE`\"
