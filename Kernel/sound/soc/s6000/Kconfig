@@ -1,3 +1,5 @@
+source "sound/soc/codecs/Kconfig.voodoo"
+
 config SND_S6000_SOC
 	tristate "SoC Audio for the Stretch s6000 family"
 	depends on XTENSA_VARIANT_S6000
